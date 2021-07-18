@@ -37,6 +37,9 @@ class SearchScreenContent extends StatelessWidget {
     return ScrollToStart(
       child: CustomScrollView(
         slivers: <Widget>[
+          const HarpySliverAppBar(
+            //Add content
+          ),
           SliverPadding(
             padding: DefaultEdgeInsets.all().copyWith(bottom: 0),
             sliver: SliverList(

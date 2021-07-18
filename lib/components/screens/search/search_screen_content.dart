@@ -5,8 +5,8 @@ import 'package:harpy/core/core.dart';
 import 'package:harpy/harpy_widgets/harpy_widgets.dart';
 import 'package:harpy/misc/misc.dart';
 
-class SearchScreen extends StatelessWidget {
-  const SearchScreen();
+class SearchScreenContent extends StatelessWidget {
+  const SearchScreenContent();
 
   Widget _buildUserSearchCard() {
     return Card(

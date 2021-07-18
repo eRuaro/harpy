@@ -22,7 +22,7 @@ class HomeTabView extends StatelessWidget {
         case 'mentions':
           return MentionsTimeline(indexInTabView: index);
         case 'search':
-          return const SearchScreen();
+          return const SearchScreenContent();
         default:
           return const SizedBox();
       }
